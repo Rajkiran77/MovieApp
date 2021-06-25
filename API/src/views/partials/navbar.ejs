@@ -1,0 +1,46 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-lg">
+      <a class="navbar-brand text-warning fw-bold" href="">MovieTrailerApp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Top Rated Movies</a></li>
+                  <li><a class="dropdown-item" href="#">Top Box Office</a></li>
+                  <li><a class="dropdown-item" href="#">In Theaters</a></li>
+                  <li><a class="dropdown-item" href="#">Movie News</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Browse Movies by Genre</a></li>
+                </ul>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/latest">Latest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/popular">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/">Coming soon</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: burlywood;">Surprise Me!</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right me-4" style="clear: both;">
+          <li class="align-content-right">
+            <a class="nav-link login" href="/signIn">Sign In</a>
+          </li>
+         </ul>
+        <form class="d-flex" action="/" method="POST">
+          <input class="form-control me-2" name="search" type="search" placeholder="Search movie" aria-label="Search">
+          <button class="btn btn-outline-warning" type="submit" value="search">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
